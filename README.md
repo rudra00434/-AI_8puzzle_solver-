@@ -1,4 +1,4 @@
-# 8-puzzle-Artificial-Intelligence-
+# 🧩 8-Puzzle • 🤖 Artificial Intelligence
 python game importing pygame
 # 🧠 8 Puzzle Problem Solver with AI (A* Search + Pygame)
 
