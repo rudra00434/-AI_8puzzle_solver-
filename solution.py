@@ -1,4 +1,8 @@
-
+"""
+@author: Anuj Kumar
+@email: cdac.anuj@gmail.com
+@date:
+"""
 import math
 import random
 from copy import deepcopy
@@ -77,7 +81,7 @@ class Node:
 
 class Solution:
     def __init__(self, puzzle):
-        print("SOLUTION")
+        print "SOLUTION"
         self.puzzle = puzzle
         self.goal = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
@@ -97,15 +101,15 @@ class Solution:
             self.closed_stack.append(self.open_stack[last_index])
             self.open_stack.remove(self.open_stack[last_index])
             if curr_node.puzzle == self.goal:
-                print("goal")
+                print "goal"
                 path_node = curr_node
                 # self.sol_stack.append(curr_node.puzzle)
                 while path_node.parent is not None:
                     self.sol_stack.append(path_node.puzzle)
                     path_node = path_node.parent
 
-                print("Sol path: %d" % len(self.sol_stack))
-                print("Sol path: %s" % self.sol_stack)
+                print "Sol path: %d" % len(self.sol_stack)
+                print "Sol path: %s" % self.sol_stack
                 break
             possible_children = self.possible_moves(curr_node.puzzle)
             for t_child in possible_children:
@@ -181,7 +185,7 @@ class Solution:
         else:
             cost = self.get_less(puzzle)
         if not self.get_less(puzzle) % 2 == 0:
-            print("************ NOT SOLVABLE **************")
+            print "************ NOT SOLVABLE **************"
 
         return (puzzle, cost)
 
