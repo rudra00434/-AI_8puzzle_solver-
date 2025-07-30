@@ -79,7 +79,11 @@ Use:
 
 # 📚 Concepts Used :
 Artificial Intelligence
+
 Heuristic Search (A*)
+
 Graph Search
+
 Game Development using Pygame
+
 Object-Oriented Programming in Python
