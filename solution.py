@@ -1,8 +1,4 @@
-"""
-@author: Anuj Kumar
-@email: cdac.anuj@gmail.com
-@date:
-"""
+
 import math
 import random
 from copy import deepcopy
