@@ -66,6 +66,24 @@ Start State Goal State
 ---
 # Let's know how A* works
 A* is a best-first search algorithm used to find the shortest path from a start node to a goal node in a graph or state space. It combines the benefits of Dijkstra’s Algorithm (which finds the shortest path) and Greedy Best-First Search (which uses heuristics to reach the goal faster).
+A* Algorithm uses a cost function: 
+### f(n)=g(n)+h(n)
+Where:
+
+f(n) = total estimated cost of the cheapest path through node n
+
+g(n) = actual cost from the start node to node n
+
+h(n) = heuristic estimated cost from n to the goal
+
+🔍 Components of A*:
+Open Set (Priority Queue): nodes to be explored, sorted by lowest f(n)
+
+Closed Set: nodes already explored
+
+Heuristic Function h(n): estimates cost to reach the goal (e.g., Manhattan distance in 8-puzzle)
+
+
 
 ## 🎮 How to Run
 
