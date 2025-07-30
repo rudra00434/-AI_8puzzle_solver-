@@ -64,6 +64,9 @@ Start State Goal State
 - **Closed List**: Stores visited states to avoid loops
 
 ---
+# Let's know how A* works
+A* is a best-first search algorithm used to find the shortest path from a start node to a goal node in a graph or state space. It combines the benefits of Dijkstra’s Algorithm (which finds the shortest path) and Greedy Best-First Search (which uses heuristics to reach the goal faster).
+
 ## 🎮 How to Run
 
 ### ✅ Prerequisites:
