@@ -108,3 +108,6 @@ Graph Search
 Game Development using Pygame
 
 Object-Oriented Programming in Python
+# visuals of the Game :
+<img width ="900px" height="900px" src="https://github.com/user-attachments/assets/b3d750ce-9cf3-46f9-9723-f63549cc85be">
+
