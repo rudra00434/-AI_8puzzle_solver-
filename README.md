@@ -109,5 +109,5 @@ Game Development using Pygame
 
 Object-Oriented Programming in Python
 # visuals of the Game :
-<img width ="900px" height="900px" src="https://github.com/user-attachments/assets/b3d750ce-9cf3-46f9-9723-f63549cc85be">
+<img width = "900px" height = "800px" src="https://github.com/user-attachments/assets/54928ad4-96f3-44ac-a325-48ce79639cfa">
 
